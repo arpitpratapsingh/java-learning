@@ -6,9 +6,10 @@ public class Print1toElseNumber {
         int a = sc.nextInt();
         for(int i = 0; i<=a; i++){
             if(i%2==0){
-                System.out.println(i+" ");
+                System.out.print(i+" ");
             }
         }
+        sc.close();
     }
     
 }
